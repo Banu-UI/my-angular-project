@@ -1,0 +1,43 @@
+.innplay-about {
+  background: #f8fbff;
+}
+
+.about-text h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #0b1c2c;
+}
+
+.about-text p {
+  color: #555;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+/* Images */
+.about-images {
+  max-width: 500px;
+  margin: 35px auto 0;
+}
+
+.main-img {
+  border-radius: 12px;
+}
+
+.second-img {
+  width: 70%;
+  bottom: -40px;
+  right:-71px;
+  border-radius: 12px;
+  border: 5px solid #fff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Mobile Fix */
+@media (max-width: 768px) {
+  .second-img {
+    position: static;
+    margin-top: 15px;
+    width: 100%;
+  }
+}

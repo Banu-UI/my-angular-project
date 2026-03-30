@@ -1,0 +1,44 @@
+.flight-results {
+  background: #f8fbff;
+}
+
+/* Filter */
+.filter-box {
+  background: #fff;
+  border-radius: 10px;
+}
+
+/* Flight Card */
+.flight-card {
+  background: #fff;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.flight-card:hover {
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Airline logo */
+.airline-logo {
+  height: 40px;
+}
+
+/* Price */
+.price {
+  color: #0d6efd;
+  font-weight: bold;
+}
+
+/* Button */
+.btn-primary {
+  border-radius: 20px;
+  padding: 6px 20px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .flight-card .row > div {
+    margin-bottom: 10px;
+  }
+}

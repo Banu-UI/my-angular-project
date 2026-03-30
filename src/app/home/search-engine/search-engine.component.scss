@@ -1,0 +1,33 @@
+
+    .search-box {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-top: 40px;
+      position: absolute;
+      bottom: 150px;
+    }
+
+    .nav-tabs .nav-link {
+      border: none;
+      color: #555;
+      font-weight: 500;
+    }
+
+    .nav-tabs .nav-link.active {
+      border-bottom: 3px solid #0d6efd;
+      color: #0d6efd;
+      background: transparent;
+    }
+
+    .trip-type label {
+      margin-right: 15px;
+    }
+
+    .search-btn {
+      background: #0d6efd;
+      color: #fff;
+      border-radius: 30px;
+      padding: 10px 30px;
+    }

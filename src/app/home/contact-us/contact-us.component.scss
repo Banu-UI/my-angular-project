@@ -1,0 +1,57 @@
+.contactus-sec {
+  background: #f8fbff;
+}
+
+/* Image */
+.contact-image img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* Overlay text */
+.overlay-text {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.main_sec {
+    display: flex;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.overlay-text h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Form */
+.contact-form {
+  border-radius: 12px;
+}
+
+.contact-form .form-label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.contact-form .form-control {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.contact-form button {
+  background: #0d6efd;
+  border: none;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .overlay-text h2 {
+    font-size: 24px;
+  }
+}

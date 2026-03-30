@@ -1,0 +1,23 @@
+.accept-pay {
+  background: #f8fbff;
+}
+
+.pay-img {
+  height: 40px;
+  object-fit: contain;
+}
+
+/* Arrow visibility fix */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+.d-flex.justify-content-center.flex-wrap.comn_paymnt {
+    gap: 80px;
+}
+/* Mobile */
+@media (max-width: 768px) {
+  .pay-img {
+    height: 30px;
+  }
+}
